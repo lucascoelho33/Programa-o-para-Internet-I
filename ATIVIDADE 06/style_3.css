@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(248, 244, 244);
+}
+
+section {
+    color: white;
+    padding: 40px 5px;
+}
+
+section h1 {
+    color: black;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+}
+
+.container input {
+    margin: 10px 10px;
+    width: 270px;
+    height: 40px;
+    background-color: #ededed;
+    border-radius: 4px;
+    color: black;
+}
+
+.container label {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+#botao button {
+    margin: 5px 5px;
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+}
+
+#botao2 button {
+    margin: 5px 5px;
+    margin-left: 10px;
+    background-color: green;
+    color: white;
+}

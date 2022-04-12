@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    background: rgb(247, 243, 243);
+}
+
+section {
+    color: white;
+    padding: 30px 5px;
+}
+
+section h1 {
+    padding: 1px 10px;
+    text-align: left;
+    color: black;
+}
+
+fieldset {
+    border: 50px;
+}
+
+fieldset:nth-child(2) {
+    padding-top: 20px;
+}
+
+.container input {
+    margin: 10px 10px;
+    width: 250px;
+    height: 40px;
+    background-color: #ededed;
+    border-radius: 4px;
+    color: black;
+}
+
+.container label {
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+
+button {
+    margin: 10px 0;
+    margin-left: 10px;
+    background: #24b624;
+    color: white;
+}
+
+
+
